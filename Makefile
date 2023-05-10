@@ -33,3 +33,4 @@ publish: doc
 
 clean:
 	rm -f $(TARGET) *.o
+	rm -r .doxygen/docs/html
